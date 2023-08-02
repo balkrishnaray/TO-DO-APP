@@ -6,8 +6,8 @@ function Goals(props) {
 export default Goals;
 
 function MissedGoal() {
-  return <h1>MISSED!</h1>;
+  return <h1> YOU MISSED!</h1>;
 }
 function MadeGoal() {
-  return <h1>Goal!</h1>;
+  return <h1>YOU MADE THE GOAL!</h1>;
 }
