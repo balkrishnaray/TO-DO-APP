@@ -4,9 +4,11 @@ import Goal from "./components/Condition";
 import Garage from "./components/LogicalOpearator";
 import Goals from "./components/Ternary";
 import Garages from "./components/List";
+import FavoriteColor from "./components/Hooks";
 
 function App() {
   const cars = ["Ford", "BMW", "Audi"];
+
   return (
     <>
       <Title name="ToDo App" />
@@ -15,6 +17,7 @@ function App() {
       <Garage cars={cars} />
       <Goals isGoal={false} />
       <Garages brand={cars} />
+      <FavoriteColor />
     </>
   );
 }
