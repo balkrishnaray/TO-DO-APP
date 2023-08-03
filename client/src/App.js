@@ -6,6 +6,7 @@ import Goals from "./components/Ternary";
 import Garages from "./components/List";
 import FavoriteColor from "./components/Hooks";
 import Car from "./components/objArray";
+import Timer from "./components/useEffect";
 
 function App() {
   const cars = ["Ford", "BMW", "Audi"];
@@ -20,6 +21,7 @@ function App() {
       <Garages brand={cars} />
       <FavoriteColor />
       <Car />
+      <Timer />
     </>
   );
 }
